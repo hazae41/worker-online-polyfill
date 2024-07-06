@@ -1,0 +1,48 @@
+# "online" and "offline" events polyfill for WebWorkers
+
+Polyfill for `online` and `offline` events on WebWorkers
+
+https://issues.chromium.org/issues/40155587
+
+```bash
+npm i @hazae41/worker-online-polyfill
+```
+
+[**Node Package 📦**](https://www.npmjs.com/package/@hazae41/worker-online-polyfill) • [**Deno Module 🦖**](https://deno.land/x/worker_online_polyfill)
+
+## Features
+- ESModules and CommonJS
+- No external dependency
+
+## Usage
+
+### How?
+
+ESModules 
+
+```tsx
+import "@hazae41/worker-online-polyfill"
+```
+
+CommonJS
+
+```tsx
+require("@hazae41/worker-online-polyfill")
+```
+
+Deno
+
+```tsx
+import "https://deno.land/x/worker_online_polyfill/src/mod.ts"
+```
+
+### Where? 
+
+You can import the polyfill **in your worker entry file** or **in a specific file**
+
+```tsx
+import "@hazae41/worker-online-polyfill"
+
+self.addEventListener("online", () => console.log("online"))
+self.addEventListener("offline", () => console.log("offline"))
+```
