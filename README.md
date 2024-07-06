@@ -1,4 +1,4 @@
-# "online" and "offline" events polyfill for WebWorkers
+# WebWorkers "online" and "offline" events polyfill
 
 Polyfill for `online` and `offline` events on WebWorkers
 

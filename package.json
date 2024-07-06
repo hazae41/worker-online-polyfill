@@ -2,7 +2,7 @@
   "type": "module",
   "name": "@hazae41/worker-online-polyfill",
   "version": "0.0.0",
-  "description": "Polyfill for online and offline events for WebWorkers",
+  "description": "Polyfill for online and offline events on WebWorkers",
   "homepage": "https://github.com/hazae41/worker-online-polyfill",
   "repository": "github:hazae41/worker-online-polyfill",
   "author": "hazae41",
