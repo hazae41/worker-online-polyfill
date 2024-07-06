@@ -8,7 +8,7 @@ https://issues.chromium.org/issues/40155587
 npm i @hazae41/worker-online-polyfill
 ```
 
-[**Node Package 📦**](https://www.npmjs.com/package/@hazae41/worker-online-polyfill) • [**Deno Module 🦖**](https://deno.land/x/worker_online_polyfill)
+[**Node Package 📦**](https://www.npmjs.com/package/@hazae41/worker-online-polyfill)
 
 ## Features
 - ESModules and CommonJS
@@ -28,12 +28,6 @@ CommonJS
 
 ```tsx
 require("@hazae41/worker-online-polyfill")
-```
-
-Deno
-
-```tsx
-import "https://deno.land/x/worker_online_polyfill/src/mod.ts"
 ```
 
 ### Where? 
